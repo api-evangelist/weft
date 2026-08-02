@@ -1,22 +1,64 @@
 aid: weft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weft.png
 name: Weft
-description: Weft is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Weft was a Burlington, Vermont based supply-chain logistics startup, founded
+  by Marc Held around 2013-2014, that combined hardware sensors and software to
+  track the shipping of physical goods worldwide in real time. It raised a seed
+  round of under $1M led by Andreessen Horowitz (a16z) and Data Elite, with plans
+  for a $5M Series A. The company was surfaced as an a16z portfolio company and
+  added to the API Evangelist network as a stub for enrichment. As of this
+  enrichment pass the company appears defunct: no live corporate website, no
+  developer portal, and no public API surface could be found. Candidate domains
+  were probed and none host an active product (weft.com refused connection,
+  weft.io does not resolve, weft.ai is a parked domain listed for sale).
 url: https://raw.githubusercontent.com/api-evangelist/weft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Data Elite
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
+x-status-reason: >-
+  Defunct 2014-era logistics-tracking startup; no live website, developer portal,
+  or public API surface found during enrichment (domains probed: weft.com refused,
+  weft.io ENOTFOUND, weft.ai parked-for-sale).
+x-founder: Marc Held
+x-founded: '2014'
+x-headquarters: Burlington, Vermont, United States
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Supply Chain
+- Shipping
+- Freight Tracking
+- IoT
+- Hardware
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
