@@ -35,6 +35,9 @@ description: >-
   were probed and none host an active product (weft.com refused connection,
   weft.io does not resolve, weft.ai is a parked domain listed for sale).
 url: https://raw.githubusercontent.com/api-evangelist/weft/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this enrichment pass the company appears defunct: no live corporate website, no developer portal, and no public API surface could be found."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
